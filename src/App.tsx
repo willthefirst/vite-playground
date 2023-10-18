@@ -1,9 +1,11 @@
+import { useState } from 'react'
 import './App.css'
+import HelloWorld from './HelloWorld'
 
 function App() {
   return (
     <>
-      <div>Hello world!</div>
+      <HelloWorld />
     </>
   )
 }
