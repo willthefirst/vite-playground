@@ -1,9 +1,10 @@
 import './App.css'
+import RampInterview from './RampInterview'
 
 function App() {
   return (
     <>
-      <MyComponent />
+      <RampInterview />
     </>
   )
 }
