@@ -1,10 +1,10 @@
 import './App.css'
-import RampInterview from './RampInterview'
+import { DiscordInterview } from './DiscordInterview'
 
 function App() {
   return (
     <>
-      <RampInterview />
+      <DiscordInterview />
     </>
   )
 }
