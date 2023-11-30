@@ -1,5 +1,9 @@
-export function DiscordInterview() {
-  console.log('Hello!')
+import { Counter } from './Counter'
 
-  return <div>Discord Interview</div>
+export function DiscordInterview() {
+  return (
+    <div>
+      <Counter />
+    </div>
+  )
 }
