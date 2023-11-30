@@ -1,13 +1,13 @@
 import { Provider } from 'react-redux'
 import './App.css'
-import { DiscordInterview } from './DiscordInterview'
-import store from './store'
+import store from '../store'
+import { Counter } from './Counter'
 
 function App() {
   return (
     <>
       <Provider store={store}>
-        <DiscordInterview />
+        <Counter />
       </Provider>
     </>
   )
