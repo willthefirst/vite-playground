@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export function Watershed() {
   const [name, setName] = useState('')
-  const [greeting, setGreeting] = useState('')
+  const [greeting, setGreeting] = useState('Hello world!')
 
   const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setName(event.target.value)
@@ -10,6 +10,7 @@ export function Watershed() {
 
   const handleSubmit = () => {
     setGreeting(`Hello, ${name}!`)
+    setName('')
   }
 
   return (
